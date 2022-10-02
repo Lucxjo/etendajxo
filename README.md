@@ -1,2 +1,2 @@
-# etendajxo
+# Etendaĵo
 Extensions for Node/Deno
