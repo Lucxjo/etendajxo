@@ -13,7 +13,7 @@
         "rules": {
             "tags": ["recommended"],
             "include": ["ban-untagged-todo"],
-            "exclude": ["no-unused-vars"]
+            "exclude": ["no-unused-vars", "no-explicit-any"]
         }
     },
     "fmt": {
@@ -31,7 +31,7 @@
     },
     "test": {
         "files": {
-            "include": ["src/"],
+            "include": ["src/", "test/"],
             "exclude": ["src/testdata/"]
         }
     }
